@@ -1,0 +1,26 @@
+.shoesImg {
+    width: 300px;
+    height: 300px;
+    margin-left: 25px
+}
+
+.shoesItem{
+    width: 350px;
+    height: 400px;
+    margin: 0px 18px 0px 18px;
+}
+
+.title {
+margin: 3px;
+}
+
+.title,.price {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;   
+    color: gray;
+}
+
+

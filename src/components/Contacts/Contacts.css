@@ -1,0 +1,22 @@
+.containerContacts {
+    max-width: 1550px;
+    height: 590px;
+    margin: 0 auto; 
+    padding-top: 100px;
+}
+
+.contacts {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding-top: 100px;
+}
+
+
+
+h4 {
+    margin-bottom: 2px;   
+}
+
+p {
+    margin: 4px;
+}

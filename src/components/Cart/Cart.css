@@ -1,0 +1,11 @@
+.cart {
+    padding-top: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 646px) {
+    .cart {
+        padding-top: 160px
+    }
+}  

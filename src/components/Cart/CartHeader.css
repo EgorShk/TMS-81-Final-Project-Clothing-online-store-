@@ -1,0 +1,23 @@
+.cartHeader {
+    display: flex;
+    align-items: center;
+}
+
+.cartDescription {
+    margin-left: 20px;
+    width: 620px;
+} 
+
+.cartDescription, .cartPriceHeader {
+   text-align: center;
+}
+
+.cartDescription {
+    margin-left: 0px;
+}
+
+@media all and (max-width: 700px) {
+    .cartDescription {
+        width: 430px;
+    }
+}  

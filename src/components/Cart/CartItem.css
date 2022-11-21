@@ -1,0 +1,21 @@
+.cartItem{
+    display: flex;
+}
+
+
+.cartImg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cartTitle {
+    width: 500px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.cartPrice {
+    width: 100px;
+    padding-top: 35px;
+}
+

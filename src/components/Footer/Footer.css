@@ -1,0 +1,68 @@
+.containerFooter {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1550px;
+    margin: 0 auto;
+  }
+  
+  .aboutStore, .forCustomers {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  a.link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contacts_and_social_network {
+    margin: 20px;
+  }
+  .contacts_and_social_network .social_network {
+    width: 135px;
+  }
+  
+  .facebook:hover, .instagram:hover, .twitter:hover {
+    animation-name: social;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .brands_and_other, .customers, .contacts_and_social_network {
+    width: 250px;
+  }
+  
+  .link:hover {
+    color: #c0b8b8;
+  }
+
+  .contactsAndSocialNetwork {
+    margin: 20px;
+  }
+
+  .socialNetworkIcon {
+    width: 40px;
+    height: 40px;
+    transition-duration: 1s;
+    
+  }
+
+  .socialNetworkIcon:hover {
+    
+    transform: scale(1.2);
+    
+  }
+
+  @media all and (max-width: 935px) {
+    .containerFooter {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .socialNetwork {
+      justify-content: center;
+    }
+  }

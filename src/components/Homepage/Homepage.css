@@ -1,0 +1,30 @@
+.dividerLine {
+    display: flex;
+}
+
+.homepage {
+    padding-top: 100px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.newProducts {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 46px;
+}
+
+.newProductText {
+   padding-top: 9px;
+}
+
+@media all and (max-width: 646px) {
+    .homepage {
+        padding-top: 160px
+    }
+}  
